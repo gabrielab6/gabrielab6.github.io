@@ -44,3 +44,21 @@ body {margin:0;}
    float: right;
 }
 
+.clearfix {
+  width: 80%
+  margin: auto;
+}
+
+.clearfix::after {
+  content; """;
+  clear: both;
+  display: table;
+}
+
+.clearfix h1 {
+  font-size:3vw
+}
+
+.clearfix p {
+  font-size:1vw
+}
